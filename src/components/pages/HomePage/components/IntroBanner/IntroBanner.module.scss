@@ -1,0 +1,15 @@
+.introBanner {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide {
+  margin: 10px;
+}
+
+.slide img {
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px #EBEBEB;
+  object-fit: cover;
+}

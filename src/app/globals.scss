@@ -1,0 +1,126 @@
+@import '../styles/colors.scss';
+
+/* Importing Playfair Display fonts */
+@font-face {
+  font-family: 'Playfair Display ExtraBold Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Medium';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Medium Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Regular';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display SemiBold';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display SemiBold Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Black';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Black Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Bold';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display Bold Italic';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display ExtraBold';
+  src: url('/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf') format('truetype');
+}
+
+/* Importing Lato fonts */
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('/fonts/Lato/Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Thin Italic';
+  src: url('/fonts/Lato/Lato-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url('/fonts/Lato/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Black Italic';
+  src: url('/fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Bold Italic';
+  src: url('/fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Italic';
+  src: url('/fonts/Lato/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Light Italic';
+  src: url('/fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato Regular', sans-serif;
+  background-color: $secondary;
+  color: $antiflash;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
