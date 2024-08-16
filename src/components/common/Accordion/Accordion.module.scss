@@ -30,6 +30,10 @@
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 0;
   max-height: 0;
   overflow: hidden;

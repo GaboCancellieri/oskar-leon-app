@@ -6,13 +6,17 @@ import { Icon, Typography } from '..';
 interface AccordionProps {
   className?: string;
   title: string;
+  onClick?: () => void;
   children: React.ReactNode;
 }
 
-export default function Accordion({ className, title, children }: AccordionProps) {
+export default function Accordion({ className, title, onClick, children }: AccordionProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
+    if (onClick) {
+      onClick();
+    }
     setIsOpen(!isOpen);
   };
 
