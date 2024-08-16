@@ -1,7 +1,7 @@
 'use client';
 
 import styles from './HomePage.module.scss';
-import { AboutMe, IntroBanner, PortfolioResume } from './components';
+import { AboutMe, ContactMe, CoursesResume, IntroBanner, PortfolioResume } from './components';
 
 export default function HomePage() {
   return (
@@ -9,6 +9,8 @@ export default function HomePage() {
       <IntroBanner />
       <AboutMe />
       <PortfolioResume />
+      <CoursesResume />
+      <ContactMe />
     </div>
   );
 }

@@ -61,9 +61,16 @@
         justify-content: center;
         color: $secondary;
         margin-bottom: 16px;
+        transition: background-color 300ms ease-in-out, transform 300ms ease-in-out;
 
         .buttonText {
           font-family: 'Lato Bold' !important;
+        }
+
+        &:hover {
+          transition: background-color 300ms ease-in-out, transform 300ms ease-in-out;
+          background-color: lighten($primary, 20%);
+          transform: scale(1.1);
         }
       }
     }

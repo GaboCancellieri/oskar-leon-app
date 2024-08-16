@@ -1,3 +1,5 @@
+'use client';
+
 import { Accordion, ImageWithFallback, Typography } from '@/components/common';
 import styles from './AboutMe.module.scss';
 

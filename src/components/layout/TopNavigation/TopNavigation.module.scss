@@ -46,7 +46,7 @@
     }
 
     .navButton:hover {
-      color: $secondary;
+      color: darken($primary, 10%);
     }
   }
 
