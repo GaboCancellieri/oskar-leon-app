@@ -14,6 +14,10 @@ const NAV_BUTTONS = [
     url: '#aboutMe',
   },
   {
+    label: 'staff',
+    url: '#staff',
+  },
+  {
     label: 'portafolio +',
     url: '#portfolio',
   },
