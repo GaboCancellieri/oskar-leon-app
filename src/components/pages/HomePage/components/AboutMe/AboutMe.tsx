@@ -38,6 +38,7 @@ export default function AboutMe() {
           encantado de ayudarte a contar tu historia a través de imágenes que perduren para siempre.
         </Typography>
         <ImageWithFallback
+          className={styles.image}
           src={'/img/profile.png'}
           alt={'Profile Picture'}
           width={432}

@@ -11,7 +11,10 @@ export default function ContactMe() {
       id="contact"
     >
       <Typography variant="h1">Contacto</Typography>
-      <Typography variant="subtitle">
+      <Typography
+        className={styles.subtitle}
+        variant="subtitle"
+      >
         ¡Hablemos! Sumate a nuestras redes y contactanos para hacer realidad tus ideas.
       </Typography>
       <div className={styles.contactInfo}>

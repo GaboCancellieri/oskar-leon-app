@@ -13,6 +13,7 @@ export default function CoursesResume() {
       <Typography variant="h1">Cursos de Fotografía</Typography>
       <div className={styles.content}>
         <ImageWithFallback
+          className={styles.image}
           src="/img/home/courses/course-picture.png"
           alt="Foto Curso"
           width={548}

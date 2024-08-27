@@ -1,11 +1,16 @@
 @import '../../../styles/colors.scss';
+@import '../../../styles/mediaQueries.scss';
 
 .accordion {
   border: 1px solid $primary;
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 1rem;
-  width: 675px;
+
+  @include mobile-only {
+    width: 300px;
+    max-width: 300px;
+  }
 }
 
 .title {
@@ -26,6 +31,10 @@
     right: 2rem;
     top: 50%;
     transform: translateY(-50%);
+
+    @include mobile-only {
+      right: 8px;
+    }
   }
 }
 

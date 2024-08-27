@@ -1,3 +1,5 @@
+@import "../../../../../styles/mediaQueries.scss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,6 +8,7 @@
   max-width: 1000px;
   text-align: center;
   scroll-margin-top: 95px;
+  margin-top: 40px;
 
   .content {
     display: flex;
@@ -13,11 +16,24 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 40px;
+    flex-wrap: wrap;
 
     .text {
       display: flex;
       text-align: justify;
       width: 482px;
+
+      @include mobile-only {
+        margin-bottom: 20px;
+        width: 300px;
+      }
+    }
+
+    .image {
+      @include mobile-only {
+        width: 300px;
+        height: 380px;
+      }
     }
   }
 
@@ -26,6 +42,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .accordion {
@@ -43,6 +61,11 @@
         align-items: center;
         width: 400px;
         text-align: left;
+
+        @include mobile-only {
+          text-align: justify;
+          width: 285px;
+        }
       }
 
       .education {
@@ -51,6 +74,10 @@
         align-items: center;
         width: 400px;
         text-align: left;
+
+        @include mobile-only {
+          width: 285px;
+        }
       }
     }
   }

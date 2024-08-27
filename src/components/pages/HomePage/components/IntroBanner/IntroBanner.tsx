@@ -52,6 +52,7 @@ export default function IntroBanner() {
           preventClickOnDrag: false,
           disableOnInit: false,
         }}
+        classname={styles.carousel}
       >
         {bannerImages.map((image, index) => (
           <div
@@ -59,6 +60,7 @@ export default function IntroBanner() {
             key={index}
           >
             <ImageWithFallback
+              className={styles.image}
               src={image.src}
               alt={image.alt}
               width={500}

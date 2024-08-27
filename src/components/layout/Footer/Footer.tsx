@@ -19,6 +19,7 @@ export default function Footer() {
           onClick={handleGoToHome}
         >
           <ImageWithFallback
+            className={styles.logo}
             src="/img/logo.png"
             alt="logo"
             width={350}

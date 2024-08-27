@@ -13,11 +13,11 @@ interface CarouselProps {
     parallax?: boolean,
   };
   options?: Partial<FlickingOptions>;
+  classname?: string;
   children: React.ReactNode;
 }
 
-export default function Carousel({ plugins = {}, options = {}, children }: CarouselProps) {
-  const childrenArray = Children.toArray(children);
+export default function Carousel({ plugins = {}, options = {}, classname = '', children }: CarouselProps) {
   const activePlugins = [];
 
   if (plugins.autoplay) {
@@ -36,6 +36,7 @@ export default function Carousel({ plugins = {}, options = {}, children }: Carou
     <Flicking
       {...options}
       plugins={activePlugins}
+      className={classname}
     >
       {children}
     </Flicking>
