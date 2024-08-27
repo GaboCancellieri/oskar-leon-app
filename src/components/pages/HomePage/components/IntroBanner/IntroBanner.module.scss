@@ -6,15 +6,21 @@
 }
 
 .slide {
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .slide img {
   border-radius: 12px;
   box-shadow: 2px 2px 4px #EBEBEB;
   object-fit: cover;
+
+  @include mobile-only {
+    box-shadow: none;
+  }
 }
 
 .carousel {
-  max-height: 300px;
+  @include mobile-only {
+    max-height: 300px;
+  }
 }
